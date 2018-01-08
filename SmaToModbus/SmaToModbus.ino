@@ -152,7 +152,7 @@ void loop() {
     Mb.MbData[1] = (energyValue / 10);
 
     /* 
-     * I didn't need EnergyIn and EnergyOut Values
+     * I don't need the EnergyIn and EnergyOut Value
      * 
         // EnergyIn
         energyValue = 0;
