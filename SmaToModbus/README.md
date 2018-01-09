@@ -2,12 +2,12 @@
 
 Diese Programm arbeitet als Daten-Konverter im Zusammenspiel mit einem SMA-Energy-Meter.
 
-Das SMA-Energy-Meter verteilt die Zählerstände als Datagram per Multicast im Teilnetz.
+Ein SMA-Energy-Meter verteilt die Zählerstände als Datagram per Multicast im Teilnetz.
 
 Das Programm nimmt diese Daten entgegen und stellt sie per MODBUS zur Verfügung. 
 In der vorliegenden Version werden nur die Werte 1.7.0 (aktueller Verbrauch) und 2.7.0 (aktuelle Einspeisung) verarbeitet.
 
-Ziel ist es auch den Geräten Zugriff auf die Zäherstände zu geben, die vorwiegend per MODBUS kommunizieren (z.B. Siemens LOGO!).
+Ziel ist es Geräten Zugriff auf die Zäherstände zu geben, die keine Datagramme verarbeiten können aber per MODBUS kommunizieren (z.B. Siemens LOGO!).
 
 ### Das Programm basiert auf
 - UDPSendReceiveString (Michael Margolis)
@@ -17,4 +17,7 @@ Ziel ist es auch den Geräten Zugriff auf die Zäherstände zu geben, die vorwie
 - **SmaToModbus.ino** - Eigentlicher Programmcode
 - **MgsModbus.h** - Änderung von zwei Variablen (Code von Marco Gerritse)
 
-Es wurde geteste auf "Arduino Ethernet". Zum Übertragen des Sketches benötigt man noch ein "Arduino USB2SERIAL".
+### getestete Geräte
+Es läuft auf "Arduino Ethernet". 
+
+Zum Übertragen des Sketches benötigt man ein "Arduino USB2SERIAL".
