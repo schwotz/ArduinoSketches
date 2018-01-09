@@ -9,8 +9,12 @@ In der vorliegenden Version werden nur die Werte 1.7.0 (aktueller Verbrauch) und
 
 Ziel ist es auch den Geräten Zugriff auf die Zäherstände zu geben, die vorwiegend per MODBUS kommunizieren (z.B. Siemens LOGO!).
 
-Das Programm basiert auf
+### Das Programm basiert auf
 - UDPSendReceiveString (Michael Margolis)
 - MsgModubus_test_Slave: (Marco Gerritse)
+
+### Die Dateien
+- **SmaToModbus.ino** - Eigentlicher Programmcode
+- **MgsModbus.h** - Änderung von zwei Variablen (Code von Marco Gerritse)
 
 Es wurde geteste auf "Arduino Ethernet". Zum Übertragen des Sketches benötigt man noch ein "Arduino USB2SERIAL".
