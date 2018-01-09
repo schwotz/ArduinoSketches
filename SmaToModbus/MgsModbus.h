@@ -63,10 +63,9 @@
 #define MgsModbus_h
 
 // 2017-10-03 A.Schwotzer
-#define MB_PORT 5310 // there is no need to change the port, but i did it 
-#define MbDataLen 4  // length of the MdData array (Save Memory-Space)
+#define MB_PORT 5310 // there is no real need to change the port, but i did it 
+#define MbDataLen 4  // length of the MdData array (saving Memory-Space)
 
-//
 //#define MB_PORT 502
 //#define MbDataLen 30
 
