@@ -14,8 +14,11 @@ Ziel ist es Geräten Zugriff auf die Zäherstände zu geben, die keine Datagramm
 - MsgModubus_test_Slave: (Marco Gerritse)
 
 ### Die Dateien
-- **SmaToModbus.ino** - Eigentlicher Programmcode
+- **SmaToModbus.ino** - der igentlicher Programmcode
+
+### Dateien, die zusätzlich im Programmverzeichnis seim müssen
 - **MgsModbus.h** - Änderung von zwei Variablen (Code von Marco Gerritse)
+- **MgsModbus.cpp** - unveränderte Datei (Code vermutlich von Marco Gerritse)
 
 ### getestete Geräte
 Es läuft auf "Arduino Ethernet". 
